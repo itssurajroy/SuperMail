@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "SuperMail",
+  "version": "1.0.0",
+  "description": "Track and manage email follow-ups efficiently.",
+  "permissions": ["storage", "identity", "tabs"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_popup": "public/index.html"
+  }
+}
